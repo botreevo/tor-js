@@ -17,7 +17,7 @@ tor-dircommon = "0.47.0"
 tor-llcrypto = "0.47.0"
 
 # KPS transport (QUIC + WebRTC on one UDP port)
-kps = { git = "https://github.com/ethereum/kps", rev = "ecaa2f7031909239a7b2909891bd966ef86a4b4a" } # TODO: tag = "libs/rust/v0.3.0" once tagged
+kps = { git = "https://github.com/ethereum/kps", rev = "d15ad1248cd95076b72ed460386d6f7a9f935676" } # TODO: tag = "libs/rust/v0.3.1" once tagged
 
 # HTTP over KPS streams (PROTOCOL.md: KPS-HTTP/1)
 hyper = { version = "1", features = ["server", "http1"] }
