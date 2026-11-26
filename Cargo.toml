@@ -12,7 +12,7 @@
 # Cargo feature unification per crate.
 [workspace]
 resolver = "2"
-members = ["crates/tor-js-wasm", "crates/tor-js-gateway"]
+members = ["crates/tor-js-wasm", "crates/tor-js-gateway", "crates/gateway-bench"]
 default-members = ["crates/tor-js-gateway"]
 
 # Applies to both crates. lto/codegen-units shrink the WASM binary ~20% before
